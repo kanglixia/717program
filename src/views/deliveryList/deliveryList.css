@@ -1,0 +1,44 @@
+#delivery{
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    background: #EEEEEE;
+}
+#delivery-con{
+    flex: 1;
+}
+#delivery-con ul li{
+    width: 100%;
+    background: #fff;
+    height: .9rem;
+    line-height: .3rem;
+    margin-bottom: .1rem;
+}
+#delivery-con ul li p:first-child span:nth-child(2){
+    color: #666;
+    font-size: .12rem;
+}
+#delivery-con ul li p:nth-child(2){
+    font-size: .12rem;
+    color: #666;
+}
+#delivery-con ul li p,#delivery-con ul li h5{
+    padding: 0 .15rem;
+}
+#delivery-con ul li h5{
+    border-top:1px solid #eee;
+}
+#delivery-con ul li h5 span{
+    padding: 0 .1rem;
+    float: right;
+    font-size: .12rem;
+    color:#666;
+}
+#delivery-con ul li h5 span i{
+    font-size: .12rem;
+}

@@ -1,0 +1,46 @@
+#index{
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    background: #EEEEEE;
+}
+.con{
+    flex: 1;
+    overflow-y: scroll;
+}
+.foot{
+    border-top:1px solid #E5E5E5;
+    display: flex;
+    height: .5rem;
+    background: #fff;
+}
+.foot li{
+    flex: 1;
+}
+.foot li a{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.foot a span,.foot a i{
+    color:#333;
+}
+.foot a span{
+    font-size: .12rem;
+}
+.foot a i{
+    font-size: .24rem;
+    margin-top: .05rem;
+}
+.foot li a.active span,.foot li a.active i{
+    color:#FC4141;
+}
+.foot li a.active span{
+    font-size: .12rem;
+}

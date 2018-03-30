@@ -1,0 +1,113 @@
+#wrap{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+#wrap header {
+    width: 100%;
+    height: .45rem;
+    background: #fff;
+    padding: 0 .15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#wrap header a img{
+    width: .45rem;
+    height: .2rem;
+}
+
+#wrap header a i.icon {
+    font-size: .22rem;
+}
+
+#wrap header a:nth-child(2){
+    flex:1;
+    padding: 0 .15rem;
+    position: relative;
+}
+
+#wrap header a:nth-child(2) i{
+    position: absolute;
+    left:.26rem;
+    top:.09rem;
+    font-size: .14rem;
+}
+
+#wrap header a:nth-child(2) input{
+    width: 100%;
+    padding-left: .3rem;
+    border: 0;
+    background: #F5F5F5;
+    height: .3rem;
+    border-radius: .05rem;
+    font-size: .12rem;
+}
+
+#wrap header a:last-child{
+    display: flex;
+    flex-direction: column;
+    color: #FC4141;
+    text-align: center;
+}
+
+#wrap header a:last-child span{
+    font-size: .12rem;
+}
+
+.home_cat{
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    margin-top: .05rem;
+}
+
+.home_cat dl{
+    width: 25%;
+    line-height: .3rem;
+    text-align: center;
+}
+
+.home_cat dl dt img{
+    width: .45rem;
+    height: .45rem;
+    margin: 0.02rem auto;
+}
+
+.home_cat dl dd{
+    font-size: .12rem;
+    color: #333;
+}
+
+#home_shop{
+    height: .45rem;
+    background: #fff;
+    display: flex;
+    padding: 0 .15rem;
+}
+
+#home_shop h3{
+    width: .45rem;
+    height: .45rem;
+    color: #FF6D00;
+    text-align: center;
+    line-height: .2rem;
+    font-size: .16rem;
+    font-weight: bold;
+}
+
+#home_shop .shop{
+    flex:1;
+}
+
+.good_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#home_bot{
+    text-align: center;
+    line-height: .3rem;
+    color: #666;
+}

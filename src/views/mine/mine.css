@@ -1,0 +1,107 @@
+#mine {
+    width: 100%;
+    height: 100%;
+}
+
+#mine header {
+    width: 100%;
+    height: .45rem;
+    background: #fff;
+    padding: 0 .15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mine .mine-user {
+    width: 100%;
+    height: 1rem;
+    background: linear-gradient(#fd8b50, #fc4242);
+}
+
+#mine .mine-user dl {
+    padding: .05rem;
+}
+
+#mine .mine-user dl dt img {
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#mine .mine-user dl dd {
+    text-align: center;
+    line-height: .2rem;
+    color: #fff;
+}
+
+#mine-shop {
+    width: 100%;
+    height: .55rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .15rem;
+    border-bottom: 1px solid #eeeeee;
+    color: #fc4141;
+    line-height: .55rem;
+}
+
+#mine-shop span:first-child i {
+    font-size: .28rem;
+    position: relative;
+    top: .02rem;
+}
+
+#mine-shop span:nth-child(2) i {
+    font-size: .2rem;
+}
+
+#mine-order {
+    width: 100%;
+    height: .6rem;
+    display: flex;
+    background: #fff;
+}
+
+#mine-order li {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: .24rem;
+}
+
+#mine-order li span {
+    font-size: .12rem;
+}
+
+#mine-order li i {
+    font-size: .2rem;
+}
+
+#mine-order li span:last-child i {
+    font-size: .12rem;
+}
+
+#mine-manage {
+    width: 100%;
+    background: #fff;
+    margin-top: .1rem;
+    padding: 0 .15rem;
+}
+
+#mine-manage li {
+    height: .45rem;
+    border-bottom: 1px solid #eee;
+    line-height: .45rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#mine-manage li span:nth-child(2) i {
+    color: #666666;
+}

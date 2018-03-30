@@ -1,0 +1,31 @@
+.goods_item{
+    background: #fff;
+    margin-right:.06rem;
+    margin-top:.05rem;
+    width: 48%;
+}
+.goods_item dt img{
+    width: 100%;
+}
+.goods_item dd{
+    height: .6rem;
+    padding: 0 .1rem;
+}
+.goods_item dd p.goods_detail{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    line-height: .3rem;
+    color: #666;
+}
+.goods_item dd p:nth-child(2) span{
+    font-size: .16rem;
+}
+.goods_price{
+    color:#FC4141;
+}
+.goods_item dd p:nth-child(2) span.gwc i{
+    float:right;
+    font-size: .24rem;
+    color: #666;
+}

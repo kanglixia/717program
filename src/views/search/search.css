@@ -1,0 +1,109 @@
+#search {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+#search header {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    line-height: .45rem;
+    text-align: center;
+    position: relative;
+}
+
+#search header input {
+    width: 80%;
+    background: #eee;
+    border: none;
+    height: .3rem;
+    padding-left: .2rem;
+    box-sizing: border-box;
+    border-radius: .05rem;
+}
+
+#search header i {
+    position: absolute;
+    left: .17rem;
+    top: .02rem;
+    color: #ccc;
+}
+
+#search header button {
+    border: none;
+    background: #fff;
+    color: #666;
+}
+
+#search .recent-search,
+.common-search {
+    width: 100%;
+    height: auto;
+    padding: 0 .1rem;
+    box-sizing: border-box;
+}
+
+#search .recent-search p {
+    position: relative;
+    line-height: .3rem;
+}
+
+#search .recent-search p span {
+    position: absolute;
+    left: 0;
+    font-size: .16rem;
+    color: #666;
+}
+
+#search .recent-search p i {
+    position: absolute;
+    right: 0;
+    top: .13rem;
+    background: none;
+    border: none;
+    font-size: .16rem;
+    color: #666;
+}
+
+#search .recent-search ul {
+    padding-top: .2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#search .common-search ol {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: .05rem
+}
+
+#search .recent-search h3 {
+    line-height: .5rem;
+}
+
+#search .recent-search ul li,
+#search .common-search ol li {
+    color: #666;
+    font-size: .16rem;
+    border: 1px solid #ccc;
+    border-radius: .05rem;
+    margin: .05rem;
+    text-align: center;
+    padding: .02rem .05rem;
+}
+
+#search .recent-search h3 {
+    color: #666;
+    font-size: .14rem;
+    padding-top: .2rem;
+    font-weight: normal;
+}
+
+#search .common-search {
+    margin-top: .4rem;
+}
+
+#search .common-search p {
+    font-size: .14rem;
+    color: #666;
+}

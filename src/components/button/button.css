@@ -1,0 +1,12 @@
+#btn{
+    text-align: center;
+    margin-top: .3rem;
+}
+#btn button{
+    width: 60%;
+    height: .45rem;
+    background: #fc4141;
+    border-radius: .5rem;
+    border:0;
+    color: #fff;
+}

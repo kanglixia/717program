@@ -1,0 +1,49 @@
+{
+    "success": 1,
+    "info": "请求成功",
+    "code": 1001,
+    "list": [
+        {
+            "id":1,
+            "name": "系第",
+            "num": 1850,
+            "price": 71,
+            "img": "http://dummyimage.com/800x800/79f2d5/fff.png&text=!"
+        },
+        {
+            "id":2,
+            "name": "所说第量使",
+            "num": 8940,
+            "price": 15,
+            "img": "http://dummyimage.com/800x800/f2b279/fff.png&text=!"
+        },
+        {
+            "id":3,
+            "name": "引分打建",
+            "num": 729,
+            "price": 91,
+            "img": "http://dummyimage.com/800x800/8f79f2/fff.png&text=!"
+        },
+        {
+            "id":4,
+            "name": "商意且按包",
+            "num": 5300,
+            "price": 18,
+            "img": "http://dummyimage.com/800x800/86f279/fff.png&text=!"
+        },
+        {
+            "id":5,
+            "name": "山教工",
+            "num": 695,
+            "price": 27,
+            "img": "http://dummyimage.com/800x800/f279a9/fff.png&text=!"
+        },
+        {
+            "id":6,
+            "name": "发更如民",
+            "num": 9040,
+            "price": 96,
+            "img": "http://dummyimage.com/800x800/79cdf2/fff.png&text=!"
+        }
+    ]
+}
